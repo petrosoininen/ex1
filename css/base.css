@@ -501,7 +501,7 @@ footer[role="contentinfo"] {
   }
   #nav .block {
     position: relative;
-    padding: 2px 0 0 0;
+    padding: 0;
   }
   #nav li {
     position: relative;
@@ -660,7 +660,7 @@ label:hover {
     }
 	#nav .block {
 		background: transparent;
-		
+		padding: 2px 0 0 0;
 	}
 	#nav li {
 		float: none;
