@@ -16,21 +16,23 @@
 <body>
 
 <div id="outer-wrap">
-    <div id="inner-wrap">
-
+	<input type="checkbox" id="slide-checkbox" class="slide-checkbox" role="button">
+    <div id="inner-wrap" class="slide">
         <header id="top" role="banner">
+            <label for="slide-checkbox" class="slide-toggle" onclick></label>
             <div class="block">
                 <h1 class="block-title">Sample</h1>
-                <a class="nav-btn" id="nav-open-btn" href="#nav">Sample</a>
+                <!--<a class="nav-btn" id="nav-open-btn" href="#nav">Sample</a>-->
             </div>
         </header>
 
         <nav id="nav" role="navigation">
+        	<label for="slide-checkbox" class="slide-toggle" onclick></label>
             <div class="block">
                 <h2 class="block-title">Links</h2>
                 <ul>
-                    <li>
-                        <a href="#">Link 1</a>
+                    <li class="act">
+                        <a href="#">Link 1</a>  
                     </li>
                     <li>
                         <a href="#">Link 2</a>
@@ -42,7 +44,7 @@
                         <a href="#">Link 4</a>
                     </li>
                 </ul>
-                <a class="close-btn" id="nav-close-btn" href="#top">Return to Content</a>
+                <!--<a class="close-btn" id="nav-close-btn" href="#top">Return to Content</a>-->
             </div>
         </nav>
 
